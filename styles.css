@@ -1,1 +1,19 @@
-/*  your css code here. If applicable */
+#band {
+    font-size: 1.2em;
+    margin: 20px;
+    padding: 0;
+    list-style-type: none;
+}
+
+#band li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#band li:last-child {
+    border-bottom: none;
+}
+
+#band li:hover {
+    background-color: #f0f0f0;
+}
